@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-11-10T00:06:18 IST" name="Suite" finished-at="2023-11-10T00:06:49 IST" duration-ms="31056">
+    <groups>
+    </groups>
+    <test started-at="2023-11-10T00:06:18 IST" name="Test" finished-at="2023-11-10T00:06:49 IST" duration-ms="31056">
+      <class name="com.Testcases.HomePageTests">
+        <test-method is-config="true" signature="Setup()[pri:0, instance:com.Testcases.HomePageTests@3fc2959f]" started-at="2023-11-10T00:06:09 IST" name="Setup" finished-at="2023-11-10T00:06:18 IST" duration-ms="8519" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method signature="ConfirmTopLevelMenusWithRequestADemoButton()[pri:1, instance:com.Testcases.HomePageTests@3fc2959f]" started-at="2023-11-10T00:06:18 IST" name="ConfirmTopLevelMenusWithRequestADemoButton" finished-at="2023-11-10T00:06:31 IST" duration-ms="12743" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ConfirmTopLevelMenusWithRequestADemoButton -->
+        <test-method signature="SubmitFormWithBlankMessageBoxField()[pri:2, instance:com.Testcases.HomePageTests@3fc2959f]" started-at="2023-11-10T00:06:31 IST" name="SubmitFormWithBlankMessageBoxField" finished-at="2023-11-10T00:06:39 IST" duration-ms="8438" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithBlankMessageBoxField -->
+        <test-method signature="VerifyBlankMessageBoxError()[pri:0, instance:com.Testcases.HomePageTests@3fc2959f]" started-at="2023-11-10T00:06:39 IST" name="VerifyBlankMessageBoxError" finished-at="2023-11-10T00:06:40 IST" depends-on-methods="com.Testcases.HomePageTests.SubmitFormWithBlankMessageBoxField" duration-ms="1117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyBlankMessageBoxError -->
+        <test-method signature="SubmitFormWithAllFieldsFilled()[pri:3, instance:com.Testcases.HomePageTests@3fc2959f]" started-at="2023-11-10T00:06:40 IST" name="SubmitFormWithAllFieldsFilled" finished-at="2023-11-10T00:06:49 IST" duration-ms="8598" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitFormWithAllFieldsFilled -->
+        <test-method is-config="true" signature="TearDown()[pri:0, instance:com.Testcases.HomePageTests@3fc2959f]" started-at="2023-11-10T00:06:49 IST" name="TearDown" finished-at="2023-11-10T00:06:54 IST" duration-ms="5391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- com.Testcases.HomePageTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
